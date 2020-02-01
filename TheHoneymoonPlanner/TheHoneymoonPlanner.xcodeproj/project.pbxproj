@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		4F1A978523E4F5DB00AD3BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A978423E4F5DB00AD3BC3 /* AppDelegate.swift */; };
 		4F1A978723E4F5DB00AD3BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A978623E4F5DB00AD3BC3 /* SceneDelegate.swift */; };
-		4F1A978923E4F5DB00AD3BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A978823E4F5DB00AD3BC3 /* ViewController.swift */; };
 		4F1A978C23E4F5DB00AD3BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A978A23E4F5DB00AD3BC3 /* Main.storyboard */; };
 		4F1A978E23E4F5E000AD3BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A978D23E4F5E000AD3BC3 /* Assets.xcassets */; };
 		4F1A979123E4F5E000AD3BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A978F23E4F5E000AD3BC3 /* LaunchScreen.storyboard */; };
+		4F1A979923E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979823E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift */; };
+		4F1A979B23E4F99B00AD3BC3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979A23E4F99B00AD3BC3 /* SettingsViewController.swift */; };
+		4F1A979D23E4F9CC00AD3BC3 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979C23E4F9CC00AD3BC3 /* DiscoverViewController.swift */; };
+		4F1A979F23E4FC5200AD3BC3 /* AddToSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979E23E4FC5200AD3BC3 /* AddToSettingsViewController.swift */; };
+		4F1A97A123E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A97A023E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift */; };
+		4F1A97A323E5054F00AD3BC3 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A97A223E5054F00AD3BC3 /* ActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F1A978123E4F5DB00AD3BC3 /* TheHoneymoonPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheHoneymoonPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1A978423E4F5DB00AD3BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1A978623E4F5DB00AD3BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F1A978823E4F5DB00AD3BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F1A978B23E4F5DB00AD3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1A978D23E4F5E000AD3BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F1A979023E4F5E000AD3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1A979223E4F5E000AD3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1A979823E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonCollectionViewController.swift; sourceTree = "<group>"; };
+		4F1A979A23E4F99B00AD3BC3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4F1A979C23E4F9CC00AD3BC3 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		4F1A979E23E4FC5200AD3BC3 /* AddToSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToSettingsViewController.swift; sourceTree = "<group>"; };
+		4F1A97A023E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonCellDetailViewController.swift; sourceTree = "<group>"; };
+		4F1A97A223E5054F00AD3BC3 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				4F1A978423E4F5DB00AD3BC3 /* AppDelegate.swift */,
 				4F1A978623E4F5DB00AD3BC3 /* SceneDelegate.swift */,
-				4F1A978823E4F5DB00AD3BC3 /* ViewController.swift */,
 				4F1A978A23E4F5DB00AD3BC3 /* Main.storyboard */,
 				4F1A978D23E4F5E000AD3BC3 /* Assets.xcassets */,
 				4F1A978F23E4F5E000AD3BC3 /* LaunchScreen.storyboard */,
 				4F1A979223E4F5E000AD3BC3 /* Info.plist */,
+				4F1A979823E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift */,
+				4F1A979A23E4F99B00AD3BC3 /* SettingsViewController.swift */,
+				4F1A979C23E4F9CC00AD3BC3 /* DiscoverViewController.swift */,
+				4F1A979E23E4FC5200AD3BC3 /* AddToSettingsViewController.swift */,
+				4F1A97A023E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift */,
+				4F1A97A223E5054F00AD3BC3 /* ActivityViewController.swift */,
 			);
 			path = TheHoneymoonPlanner;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1A978923E4F5DB00AD3BC3 /* ViewController.swift in Sources */,
+				4F1A979923E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift in Sources */,
 				4F1A978523E4F5DB00AD3BC3 /* AppDelegate.swift in Sources */,
+				4F1A979F23E4FC5200AD3BC3 /* AddToSettingsViewController.swift in Sources */,
+				4F1A97A323E5054F00AD3BC3 /* ActivityViewController.swift in Sources */,
+				4F1A97A123E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift in Sources */,
+				4F1A979D23E4F9CC00AD3BC3 /* DiscoverViewController.swift in Sources */,
+				4F1A979B23E4F99B00AD3BC3 /* SettingsViewController.swift in Sources */,
 				4F1A978723E4F5DB00AD3BC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
