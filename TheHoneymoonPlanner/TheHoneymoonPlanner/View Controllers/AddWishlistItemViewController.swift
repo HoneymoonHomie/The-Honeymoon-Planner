@@ -1,17 +1,15 @@
 //
-//  AddHoneymoonViewController.swift
+//  AddWishlistItemViewController.swift
 //  TheHoneymoonPlanner
 //
-//  Created by Brandi Bailey on 2/2/20.
+//  Created by Brandi Bailey on 2/3/20.
 //  Copyright © 2020 Jonalynn Masters. All rights reserved.
 //
 
 import UIKit
 
-class AddHoneymoonViewController: UIViewController {
+class AddWishlistItemViewController: UIViewController {
 
-    @IBOutlet weak var selectLocationButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

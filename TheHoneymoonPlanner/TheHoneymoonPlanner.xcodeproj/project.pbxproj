@@ -21,6 +21,7 @@
 		85A4DD3323E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD3123E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld */; };
 		85A4DD4A23E79660001B7A2A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD4923E79660001B7A2A /* CoreDataStack.swift */; };
 		85A4DD6023E7CA2E001B7A2A /* AddHoneymoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD5F23E7CA2E001B7A2A /* AddHoneymoonViewController.swift */; };
+		85A4DD7523E87FD3001B7A2A /* AddWishlistItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD7423E87FD3001B7A2A /* AddWishlistItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		85A4DD3223E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheHoneymoonPlanner.xcdatamodel; sourceTree = "<group>"; };
 		85A4DD4923E79660001B7A2A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		85A4DD5F23E7CA2E001B7A2A /* AddHoneymoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHoneymoonViewController.swift; sourceTree = "<group>"; };
+		85A4DD7423E87FD3001B7A2A /* AddWishlistItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWishlistItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4F1A97A023E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift */,
 				4F1A97A223E5054F00AD3BC3 /* ActivityViewController.swift */,
 				85A4DD5F23E7CA2E001B7A2A /* AddHoneymoonViewController.swift */,
+				85A4DD7423E87FD3001B7A2A /* AddWishlistItemViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				4F1A979D23E4F9CC00AD3BC3 /* DiscoverViewController.swift in Sources */,
 				85A4DD6023E7CA2E001B7A2A /* AddHoneymoonViewController.swift in Sources */,
 				85A4DD3323E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld in Sources */,
+				85A4DD7523E87FD3001B7A2A /* AddWishlistItemViewController.swift in Sources */,
 				85A4DD4A23E79660001B7A2A /* CoreDataStack.swift in Sources */,
 				4F1A979B23E4F99B00AD3BC3 /* SettingsViewController.swift in Sources */,
 				4F1A978723E4F5DB00AD3BC3 /* SceneDelegate.swift in Sources */,

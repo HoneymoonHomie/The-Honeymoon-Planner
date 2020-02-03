@@ -22,6 +22,9 @@ class AddBudgetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // TODO:
+        // Set slider value to budget value if it exists.
     }
     
     @IBAction func sliderChanged(_ sender: UISlider){
@@ -32,15 +35,11 @@ class AddBudgetViewController: UIViewController {
 
     }
     
-    @IBAction func cancelTapped(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
     @IBAction func saveTapped(_ sender: Any) {
-        saveBudgetToCoreData()
+        saveBudgetToUserDefaults()
         
         delegate?.budgetHasBeenUpdated()
-        self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     func roundedSliderValue() -> Double {
@@ -52,19 +51,9 @@ class AddBudgetViewController: UIViewController {
 
     }
     
-    func saveBudgetToCoreData() {
+    func saveBudgetToUserDefaults() {
         UserDefaults.standard.setValue(roundedSliderValue(), forKey: "budgetTotal")
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
