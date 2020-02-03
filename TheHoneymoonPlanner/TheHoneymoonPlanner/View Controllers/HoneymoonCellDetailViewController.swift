@@ -7,16 +7,23 @@
 //
 
 import UIKit
+import MapKit
 
 class HoneymoonCellDetailViewController: UIViewController {
-
+    
+    @IBOutlet weak var hCDVMapView: MKMapView!
+    
+    @IBOutlet weak var hCDVTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func addActivityButtonPressed(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
