@@ -17,12 +17,12 @@ extension Activity {
         return NSFetchRequest<Activity>(entityName: "Activity")
     }
 
+    @NSManaged public var act_cost: Double
+    @NSManaged public var act_date_end: Date?
     @NSManaged public var act_date_start: Date?
     @NSManaged public var act_latitude: Double
     @NSManaged public var act_longitude: Double
     @NSManaged public var name: String?
-    @NSManaged public var act_cost: Double
-    @NSManaged public var act_date_end: Date?
     @NSManaged public var vacation: Vacation?
 
 }

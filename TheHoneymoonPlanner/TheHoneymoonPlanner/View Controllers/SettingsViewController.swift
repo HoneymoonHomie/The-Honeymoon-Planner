@@ -1,5 +1,5 @@
 //
-//  AddToSettingsViewController.swift
+//  SettingsViewController.swift
 //  TheHoneymoonPlanner
 //
 //  Created by Jonalynn Masters on 1/31/20.
@@ -8,8 +8,13 @@
 
 import UIKit
 
-class AddToSettingsViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var budgetEditButton: UIButton!
+    @IBOutlet weak var budgetAmountLabel: UILabel!
+    @IBOutlet weak var addWishlistItemButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

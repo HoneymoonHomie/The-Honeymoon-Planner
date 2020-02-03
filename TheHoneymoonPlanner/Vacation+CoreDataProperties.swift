@@ -17,14 +17,14 @@ extension Vacation {
         return NSFetchRequest<Vacation>(entityName: "Vacation")
     }
 
-    @NSManaged public var title: String?
-    @NSManaged public var location: String?
     @NSManaged public var cost: Double
-    @NSManaged public var latitude: Double
-    @NSManaged public var longitude: Double
-    @NSManaged public var date_start: Date?
     @NSManaged public var date_end: Date?
+    @NSManaged public var date_start: Date?
     @NSManaged public var imageURL: URL?
+    @NSManaged public var latitude: Double
+    @NSManaged public var location: String?
+    @NSManaged public var longitude: Double
+    @NSManaged public var title: String?
     @NSManaged public var activities: NSSet?
 
 }
