@@ -7,29 +7,58 @@
 //
 
 import UIKit
+import CoreData
+
+let currencyFormatter: NumberFormatter = {
+    let formatter = NumberFormatter()
+    formatter.numberStyle = .currency
+    return formatter
+}()
 
 class SettingsViewController: UIViewController {
-
+    
+    var budgetHasBeenSet: Bool = false {
+        didSet {
+            updateViews()
+            budgetHasBeenSet = false
+        }
+    }
+    
+    
     @IBOutlet weak var budgetEditButton: UIButton!
     @IBOutlet weak var budgetAmountLabel: UILabel!
     @IBOutlet weak var addWishlistItemButton: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let addBudgetVC = AddBudgetViewController()
+        addBudgetVC.delegate = self
+        updateViews()
+    }
+    
+    func updateViews() {
+        let budgetValue = UserDefaults.standard.double(forKey: "budgetTotal")
+        budgetAmountLabel.text = budgetValue > 0.0 ? currencyFormatter.string(from: NSNumber(value: budgetValue)) : "$0.00"
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+     // MARK: - Navigation
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)  {
+        if segue.identifier == "AddToSettingsSegue" {
+            guard let addBudgetVC = segue.destination as? AddBudgetViewController else { return }
+            addBudgetVC.delegate = self
+        }
     }
-    */
-
 }
+
+extension SettingsViewController: addBudgetViewControllerDelegate {
+    func budgetHasBeenUpdated() {
+        budgetHasBeenSet = true
+        
+    }
+}
+
+

@@ -9,9 +9,6 @@
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="vacation" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Vacation" inverseName="activities" inverseEntity="Vacation"/>
     </entity>
-    <entity name="Budget" representedClassName="Budget" syncable="YES">
-        <attribute name="total" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
-    </entity>
     <entity name="Vacation" representedClassName="Vacation" syncable="YES">
         <attribute name="cost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="date_end" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -32,7 +29,6 @@
     </entity>
     <elements>
         <element name="Activity" positionX="-119.8671875" positionY="14.77734375" width="128" height="148"/>
-        <element name="Budget" positionX="-331.34765625" positionY="182.0625" width="128" height="58"/>
         <element name="Vacation" positionX="-329.38671875" positionY="-15.20703125" width="128" height="178"/>
         <element name="Wishlist" positionX="-330.828125" positionY="264.56640625" width="128" height="58"/>
         <element name="WishlistItem" positionX="-130.88671875" positionY="257.0234375" width="128" height="73"/>
