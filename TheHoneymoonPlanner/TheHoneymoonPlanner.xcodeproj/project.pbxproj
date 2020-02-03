@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		4F1A978523E4F5DB00AD3BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A978423E4F5DB00AD3BC3 /* AppDelegate.swift */; };
 		4F1A978723E4F5DB00AD3BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A978623E4F5DB00AD3BC3 /* SceneDelegate.swift */; };
-		4F1A978923E4F5DB00AD3BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A978823E4F5DB00AD3BC3 /* ViewController.swift */; };
 		4F1A978C23E4F5DB00AD3BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A978A23E4F5DB00AD3BC3 /* Main.storyboard */; };
 		4F1A978E23E4F5E000AD3BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A978D23E4F5E000AD3BC3 /* Assets.xcassets */; };
 		4F1A979123E4F5E000AD3BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A978F23E4F5E000AD3BC3 /* LaunchScreen.storyboard */; };
+		4F1A979923E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979823E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift */; };
+		4F1A979B23E4F99B00AD3BC3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979A23E4F99B00AD3BC3 /* SettingsViewController.swift */; };
+		4F1A979D23E4F9CC00AD3BC3 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979C23E4F9CC00AD3BC3 /* DiscoverViewController.swift */; };
+		4F1A979F23E4FC5200AD3BC3 /* AddBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A979E23E4FC5200AD3BC3 /* AddBudgetViewController.swift */; };
+		4F1A97A123E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A97A023E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift */; };
+		4F1A97A323E5054F00AD3BC3 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A97A223E5054F00AD3BC3 /* ActivityViewController.swift */; };
+		85A4DD3323E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD3123E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld */; };
+		85A4DD4A23E79660001B7A2A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD4923E79660001B7A2A /* CoreDataStack.swift */; };
+		85A4DD5523E7A1DC001B7A2A /* Wishlist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD4B23E7A1DC001B7A2A /* Wishlist+CoreDataClass.swift */; };
+		85A4DD5623E7A1DC001B7A2A /* Wishlist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD4C23E7A1DC001B7A2A /* Wishlist+CoreDataProperties.swift */; };
+		85A4DD5723E7A1DC001B7A2A /* Budget+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD4D23E7A1DC001B7A2A /* Budget+CoreDataClass.swift */; };
+		85A4DD5823E7A1DC001B7A2A /* Budget+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD4E23E7A1DC001B7A2A /* Budget+CoreDataProperties.swift */; };
+		85A4DD5923E7A1DC001B7A2A /* Vacation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD4F23E7A1DC001B7A2A /* Vacation+CoreDataClass.swift */; };
+		85A4DD5A23E7A1DC001B7A2A /* Vacation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD5023E7A1DC001B7A2A /* Vacation+CoreDataProperties.swift */; };
+		85A4DD5B23E7A1DC001B7A2A /* WishlistItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD5123E7A1DC001B7A2A /* WishlistItem+CoreDataClass.swift */; };
+		85A4DD5C23E7A1DC001B7A2A /* WishlistItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD5223E7A1DC001B7A2A /* WishlistItem+CoreDataProperties.swift */; };
+		85A4DD5D23E7A1DC001B7A2A /* Activity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD5323E7A1DC001B7A2A /* Activity+CoreDataClass.swift */; };
+		85A4DD5E23E7A1DC001B7A2A /* Activity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD5423E7A1DC001B7A2A /* Activity+CoreDataProperties.swift */; };
+		85A4DD6023E7CA2E001B7A2A /* AddHoneymoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DD5F23E7CA2E001B7A2A /* AddHoneymoonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F1A978123E4F5DB00AD3BC3 /* TheHoneymoonPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheHoneymoonPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1A978423E4F5DB00AD3BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1A978623E4F5DB00AD3BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F1A978823E4F5DB00AD3BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F1A978B23E4F5DB00AD3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1A978D23E4F5E000AD3BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F1A979023E4F5E000AD3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1A979223E4F5E000AD3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1A979823E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonCollectionViewController.swift; sourceTree = "<group>"; };
+		4F1A979A23E4F99B00AD3BC3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4F1A979C23E4F9CC00AD3BC3 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		4F1A979E23E4FC5200AD3BC3 /* AddBudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetViewController.swift; sourceTree = "<group>"; };
+		4F1A97A023E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonCellDetailViewController.swift; sourceTree = "<group>"; };
+		4F1A97A223E5054F00AD3BC3 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		85A4DD3223E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheHoneymoonPlanner.xcdatamodel; sourceTree = "<group>"; };
+		85A4DD4923E79660001B7A2A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		85A4DD4B23E7A1DC001B7A2A /* Wishlist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wishlist+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85A4DD4C23E7A1DC001B7A2A /* Wishlist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wishlist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85A4DD4D23E7A1DC001B7A2A /* Budget+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85A4DD4E23E7A1DC001B7A2A /* Budget+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85A4DD4F23E7A1DC001B7A2A /* Vacation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vacation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85A4DD5023E7A1DC001B7A2A /* Vacation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vacation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85A4DD5123E7A1DC001B7A2A /* WishlistItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishlistItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85A4DD5223E7A1DC001B7A2A /* WishlistItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishlistItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85A4DD5323E7A1DC001B7A2A /* Activity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85A4DD5423E7A1DC001B7A2A /* Activity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85A4DD5F23E7CA2E001B7A2A /* AddHoneymoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHoneymoonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +76,16 @@
 		4F1A977823E4F5DB00AD3BC3 = {
 			isa = PBXGroup;
 			children = (
+				85A4DD4B23E7A1DC001B7A2A /* Wishlist+CoreDataClass.swift */,
+				85A4DD4C23E7A1DC001B7A2A /* Wishlist+CoreDataProperties.swift */,
+				85A4DD4D23E7A1DC001B7A2A /* Budget+CoreDataClass.swift */,
+				85A4DD4E23E7A1DC001B7A2A /* Budget+CoreDataProperties.swift */,
+				85A4DD4F23E7A1DC001B7A2A /* Vacation+CoreDataClass.swift */,
+				85A4DD5023E7A1DC001B7A2A /* Vacation+CoreDataProperties.swift */,
+				85A4DD5123E7A1DC001B7A2A /* WishlistItem+CoreDataClass.swift */,
+				85A4DD5223E7A1DC001B7A2A /* WishlistItem+CoreDataProperties.swift */,
+				85A4DD5323E7A1DC001B7A2A /* Activity+CoreDataClass.swift */,
+				85A4DD5423E7A1DC001B7A2A /* Activity+CoreDataProperties.swift */,
 				4F1A978323E4F5DB00AD3BC3 /* TheHoneymoonPlanner */,
 				4F1A978223E4F5DB00AD3BC3 /* Products */,
 			);
@@ -56,15 +102,39 @@
 		4F1A978323E4F5DB00AD3BC3 /* TheHoneymoonPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				85A4DD4823E795BF001B7A2A /* Data */,
 				4F1A978423E4F5DB00AD3BC3 /* AppDelegate.swift */,
 				4F1A978623E4F5DB00AD3BC3 /* SceneDelegate.swift */,
-				4F1A978823E4F5DB00AD3BC3 /* ViewController.swift */,
 				4F1A978A23E4F5DB00AD3BC3 /* Main.storyboard */,
+				85A4DD3123E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld */,
 				4F1A978D23E4F5E000AD3BC3 /* Assets.xcassets */,
 				4F1A978F23E4F5E000AD3BC3 /* LaunchScreen.storyboard */,
 				4F1A979223E4F5E000AD3BC3 /* Info.plist */,
+				85A4DD6123E7CA45001B7A2A /* View Controllers */,
 			);
 			path = TheHoneymoonPlanner;
+			sourceTree = "<group>";
+		};
+		85A4DD4823E795BF001B7A2A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				85A4DD4923E79660001B7A2A /* CoreDataStack.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		85A4DD6123E7CA45001B7A2A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A979823E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift */,
+				4F1A979A23E4F99B00AD3BC3 /* SettingsViewController.swift */,
+				4F1A979C23E4F9CC00AD3BC3 /* DiscoverViewController.swift */,
+				4F1A979E23E4FC5200AD3BC3 /* AddBudgetViewController.swift */,
+				4F1A97A023E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift */,
+				4F1A97A223E5054F00AD3BC3 /* ActivityViewController.swift */,
+				85A4DD5F23E7CA2E001B7A2A /* AddHoneymoonViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +208,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1A978923E4F5DB00AD3BC3 /* ViewController.swift in Sources */,
+				85A4DD5523E7A1DC001B7A2A /* Wishlist+CoreDataClass.swift in Sources */,
+				4F1A979923E4F84200AD3BC3 /* HoneymoonCollectionViewController.swift in Sources */,
+				85A4DD5623E7A1DC001B7A2A /* Wishlist+CoreDataProperties.swift in Sources */,
 				4F1A978523E4F5DB00AD3BC3 /* AppDelegate.swift in Sources */,
+				85A4DD5A23E7A1DC001B7A2A /* Vacation+CoreDataProperties.swift in Sources */,
+				85A4DD5823E7A1DC001B7A2A /* Budget+CoreDataProperties.swift in Sources */,
+				4F1A979F23E4FC5200AD3BC3 /* AddBudgetViewController.swift in Sources */,
+				4F1A97A323E5054F00AD3BC3 /* ActivityViewController.swift in Sources */,
+				4F1A97A123E5018E00AD3BC3 /* HoneymoonCellDetailViewController.swift in Sources */,
+				85A4DD5923E7A1DC001B7A2A /* Vacation+CoreDataClass.swift in Sources */,
+				85A4DD5B23E7A1DC001B7A2A /* WishlistItem+CoreDataClass.swift in Sources */,
+				4F1A979D23E4F9CC00AD3BC3 /* DiscoverViewController.swift in Sources */,
+				85A4DD6023E7CA2E001B7A2A /* AddHoneymoonViewController.swift in Sources */,
+				85A4DD5E23E7A1DC001B7A2A /* Activity+CoreDataProperties.swift in Sources */,
+				85A4DD3323E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld in Sources */,
+				85A4DD5C23E7A1DC001B7A2A /* WishlistItem+CoreDataProperties.swift in Sources */,
+				85A4DD4A23E79660001B7A2A /* CoreDataStack.swift in Sources */,
+				4F1A979B23E4F99B00AD3BC3 /* SettingsViewController.swift in Sources */,
+				85A4DD5723E7A1DC001B7A2A /* Budget+CoreDataClass.swift in Sources */,
 				4F1A978723E4F5DB00AD3BC3 /* SceneDelegate.swift in Sources */,
+				85A4DD5D23E7A1DC001B7A2A /* Activity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +426,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85A4DD3123E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85A4DD3223E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodel */,
+			);
+			currentVersion = 85A4DD3223E78530001B7A2A /* TheHoneymoonPlanner.xcdatamodel */;
+			path = TheHoneymoonPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4F1A977923E4F5DB00AD3BC3 /* Project object */;
 }
