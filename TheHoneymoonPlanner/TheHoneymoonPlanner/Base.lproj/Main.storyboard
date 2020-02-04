@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pww-o6-tJW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QiA-cX-NnG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -420,7 +420,6 @@ to drop pin</string>
                         <outlet property="activityDescriptionTextView" destination="8eO-Am-Kqh" id="sV4-Wq-pOI"/>
                         <outlet property="activityNameTextField" destination="pDp-Wk-3cw" id="iT9-w3-bTA"/>
                         <outlet property="activityPriceTextField" destination="Uxj-83-k1m" id="soy-Mu-ac9"/>
-                        <outlet property="dateTextField" destination="np5-Ti-oYX" id="12V-A0-jnZ"/>
                         <outlet property="endTextField" destination="YOR-wc-xPp" id="FEw-h2-Bbb"/>
                         <outlet property="startTextField" destination="np5-Ti-oYX" id="AXW-NR-Bgh"/>
                     </connections>

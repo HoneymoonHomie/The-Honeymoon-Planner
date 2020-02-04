@@ -6,7 +6,7 @@
 //  Copyright © 2020 Jonalynn Masters. All rights reserved.
 //
 
-import Foundation
+/*import Foundation
 import CoreData
 
 extension Vacation {
@@ -30,3 +30,4 @@ extension Vacation {
     }
     
 }
+*/
