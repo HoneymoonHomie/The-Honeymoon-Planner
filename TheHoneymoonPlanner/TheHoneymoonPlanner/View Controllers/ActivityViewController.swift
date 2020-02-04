@@ -59,7 +59,6 @@ class ActivityViewController: UIViewController {
         dateFormatter.timeStyle = .short
         
         startTextField.text = dateFormatter.string(from: datePicker.date)
-        view.endEditing(true)
     }
     
     @objc func endViewTapped(gestureRecognizer: UITapGestureRecognizer) {
@@ -72,7 +71,6 @@ class ActivityViewController: UIViewController {
         dateFormatter.timeStyle = .short
         
         endTextField.text = dateFormatter.string(from: datePicker.date)
-        view.endEditing(true)
     }
 
 
