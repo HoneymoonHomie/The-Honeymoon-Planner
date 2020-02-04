@@ -1,14 +1,14 @@
 //
-//  AddWishlistItemViewController.swift
+//  AddActivityMapViewController.swift
 //  TheHoneymoonPlanner
 //
-//  Created by Brandi Bailey on 2/3/20.
+//  Created by Jerry haaser on 2/3/20.
 //  Copyright © 2020 Jonalynn Masters. All rights reserved.
 //
 
 import UIKit
 
-class AddWishlistItemViewController: UIViewController {
+class AddActivityMapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,10 +16,7 @@ class AddWishlistItemViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func cancelTapped(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
+
     /*
     // MARK: - Navigation
 
