@@ -11,6 +11,6 @@ import Foundation
 import CoreData
 
 @objc(Activity)
-public class Activity: Vacation {
+public class Activity: NSManagedObject {
 
 }

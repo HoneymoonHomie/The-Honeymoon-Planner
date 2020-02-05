@@ -33,10 +33,10 @@ extension Vacation {
 extension Vacation {
 
     @objc(addActivitiesObject:)
-    @NSManaged public func addToActivities(_ value: Activity)
+    @NSManaged public func addToActivities(_ value: Vacation)
 
     @objc(removeActivitiesObject:)
-    @NSManaged public func removeFromActivities(_ value: Activity)
+    @NSManaged public func removeFromActivities(_ value: Vacation)
 
     @objc(addActivities:)
     @NSManaged public func addToActivities(_ values: NSSet)

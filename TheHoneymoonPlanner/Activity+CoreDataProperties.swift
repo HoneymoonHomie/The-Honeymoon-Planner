@@ -22,8 +22,7 @@ extension Activity {
     @NSManaged public var act_date_start: Date?
     @NSManaged public var act_latitude: Double
     @NSManaged public var act_longitude: Double
-    @NSManaged public var activity_description: String?
     @NSManaged public var name: String?
-    @NSManaged public var vacation: Vacation?
+    @NSManaged public var vacation: Activity?
 
 }
